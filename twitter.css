@@ -1,0 +1,306 @@
+*{
+    margin: 0%;
+    padding: 0px;
+  }
+  body{                                    
+    display: flex;
+    flex-direction: row;
+    height: 1500%;
+    width: 100%;
+   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  
+  
+  .box1{
+    width: 350px;                                                    /* 1 main container that is fixed */
+    background-color: #ffff;
+  }
+  .bird{
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  aside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+   flex-wrap: nowrap;
+    cursor: pointer;
+   left:0;
+   bottom:0;
+   top:0;
+   background-color: white;
+   font-size: 20px;
+  }
+  .sidebar{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    margin-left: 20px;
+    padding: 15px;
+  }
+  .sidebar:hover{
+    background-color: rgb(225, 225, 225);
+  }
+  .sidebar svg{
+    height: 24px;
+  margin-right: 15px;
+  }
+  .button2{
+    background-color:#0993de;
+    color: white;
+   border: none;
+   height: 50px;
+   width: 100px;
+   border-radius: 24px;
+   cursor: pointer;
+   font-weight:bold;
+   font-size: 18px;
+   box-shadow:5px 5px 5px rgba(0, 0, 0,0.15);
+   transition: 0.15s;
+   padding-left: 40px;
+   padding-right: 90px;
+   margin-left: 35px;
+  }
+  .button2:hover{
+  background-color: rgb(27, 74, 125);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .box2{
+    width: 750px;                                      /*   2 main container that have 5 child */
+    position: relative;
+   
+  }
+  header{
+    background-color:rgb(255,255,255,0.85);
+  position: fixed;
+  }
+  .head{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+   }
+  .star{
+  position: absolute;
+  right: -520px;
+  top: 10px;
+  background-color:rgb(255,255,255,0.85) ;
+  }
+  
+  
+  
+  #search{
+      width: 200%;
+      border-radius: 20px;
+      border: none;
+      background-color:#eff6f6;
+      height: 35px;
+    }
+  .picture{
+      position: absolute;
+      padding: 5px;
+      top: 2px;
+    }
+  .search1{
+  position: fixed;
+  top: 5px;
+  right: 200px;
+  }
+  
+  
+  .propic{
+    width: 55px;
+    border-radius: 26px;
+    margin-left: 15px;
+  }
+  #text-1{
+    border: none;
+    font-size: 25px;
+    color: rgb(118, 116, 116);
+  }
+  .favicons{
+     fill: #0993de; 
+  display: inline;
+  padding: 10px;
+  }
+  .favicons svg{
+    height: 20px;
+    cursor: pointer;
+  }
+  .button1{
+    background-color: #0ba1f1;
+    color: white;
+   border: none;
+   height: 35px;
+   width: 70px;
+   border-radius: 40px;
+   cursor: pointer;
+   font-weight:bold;
+   font-size: 15px;
+   box-shadow:5px 5px 5px rgba(0, 0, 0,0.15);
+   transition: 0.15s;
+   padding-left: 15px;
+   padding-right: 57px;
+   position: absolute;
+   right: 65px;
+   top: 140px;
+  }
+  
+  .box2child2{
+    color:#0ba1f1;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .box2child2:hover{
+    background-color: rgb(228, 229, 229);
+  }
+  .box2child1{
+   padding: 15px;                                                /* child1 top */
+  border-bottom: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  border-radius: 10px;
+  }
+  .box2child3, .box2child4, .box2child5, .box2child6{
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  }
+  .logo7{
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .b1{
+    font-size: larger;
+  }
+  .b-b{
+  padding: 10px;
+  }
+  .psmall{
+      width: 40px;
+      border-radius: 50px;
+      padding: 10px;
+    }
+    .pic3, .pic2{
+      position: relative;
+      left:50px;
+    width: 400px;
+    height: 200px;
+    border-radius: 9px;
+   }
+  
+  
+  
+  
+  
+   .box3{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 30px;
+  
+  }
+  .box3child1{
+  padding: 10px;
+  background-color:#e9e7e9;
+  border-radius: 10px;
+  
+  }
+  .box3child2{
+  background-color:#e9e7e9;
+  border: 1px solid gainsboro;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: -1;
+  position: sticky;
+  right: 0px;
+  top: 45px;
+  }
+  .button5, .button4, .button3{
+    background-color: whitesmoke;
+    color: rgb(9, 9, 9);
+   border: none;
+   height: 40px;
+   width: 250px;
+   border-radius: 24px;
+   cursor: pointer;
+   font-weight:bold;
+   font-size: 15px;
+   box-shadow:5px 5px 5px rgba(0, 0, 0,0.15);
+   transition: 0.15s;
+   margin-left: 50px;
+  }
+  .button5:hover{
+    background-color: rgb(207, 226, 245);
+    }
+  .button4:hover{
+    background-color:rgb(207, 226, 245) ;
+  }
+  .button3:hover{
+      background-color:rgb(207, 226, 245) ;
+  }
+  .follow1, .follow2, .follow3, .follow4{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+    .fimg{
+      border-radius: 38%;
+      width: 30px;
+      padding: 0px;
+      margin: 0px;
+    }
+    .button6{
+      padding: 10px;
+      color: #ffff;
+      background-color: black;
+      border-radius: 42px;
+      font-weight:bold;
+      border: none;
+      cursor: pointer;
+      width: 82px;
+    }
+    .messages svg{
+      height: 24px;
+    }
+    .messages{
+      position: fixed;
+      bottom: 0px;
+      box-shadow: 3px 3px 4px rgba(0, 0, 0,0.10), -2px -2px 4px rgba(0, 0, 0,0.15);
+      background-color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 30px;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px;
+      cursor: pointer;
+    }
